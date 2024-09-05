@@ -1,0 +1,14 @@
+@use '../../grobal/variable' as *;
+@use '../../grobal/mixin' as *;
+
+.common-button {
+  width: 26rem;
+  height: 6rem;
+  border: 0.2rem solid $color-pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: $color-pink;
+}
+
